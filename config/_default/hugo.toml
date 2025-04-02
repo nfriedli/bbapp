@@ -1,0 +1,13 @@
+baseURL = "https://bielbienne.ch"
+title = "Biel-Bienne app"
+
+languageCode = "fr"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+
+cleanDestinationDir = true
+disableFastRender = true
+
+removePathAccents = true
+
+disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS", "404"]

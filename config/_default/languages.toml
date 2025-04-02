@@ -1,0 +1,31 @@
+# Configuration de l'allemand
+[de]
+contentDir = "content/de"
+languageName = "Deutsch"
+weight = 10
+
+title = "Mehr über die Stadt Biel"
+footer = "Ein Projekt der Stadt Biel"
+
+# Activer un boutton d'urgence sur toutes les pages
+# Il faut enlever le # des 3 lignes suivantes
+
+# [de.params.emergency]
+# title = "Notfall"
+# url = "/de/notfall/"
+
+# Configuration du français 
+[fr]
+contentDir = "content/fr"
+languageName = "Français"
+weight = 20
+
+title = "Informations sur Bienne"
+footer = "Un projet de la Ville de Bienne"
+
+# Activer un boutton d'urgence sur toutes les pages
+# Il faut enlever le # des 3 lignes suivantes
+
+# [fr.params.emergency]
+# title = "Urgences"
+# url = "/fr/urgences/"

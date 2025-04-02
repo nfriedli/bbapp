@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="content">
+
+    {{ .Content }}
+
+    <ul class="list-link">
+        {{ range .Params.liens }}
+        <li class="link"><a href="{{ .url }}" class="btn btn-outline-primary" target="_blank">{{ .title }}</a></li>
+        {{ end }}
+    </ul>
+</div>
+
+{{ end }}

@@ -1,0 +1,8 @@
+minifyOutput = true
+
+[tdewolff.html]
+keepDefaultAttrVals = false
+keepDocumentTags = true
+keepEndTags = true
+keepQuotes = true
+#keepWhitespace = true

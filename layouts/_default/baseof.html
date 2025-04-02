@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+
+    {{ partialCached "css" . }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    
+    {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+        {{ end}}
+    {{ end }}
+
+    {{ hugo.Generator }}
+    <meta name="robots" content="noindex">
+
+    {{ partialCached "favicons" . }}
+
+    {{ partialCached "stats" . }}
+
+</head>
+
+<body>
+    <header class="header">
+
+        {{ partial "header" . }}
+
+    </header>
+    <main>
+        <article>
+
+            {{ partial "title" . }}
+
+            {{ block "main" . }}{{ end }}
+
+        </article>
+        
+    </main>
+    <footer>
+
+        {{ partial "footer" .}}
+
+    </footer>
+</body>
+
+</html>
