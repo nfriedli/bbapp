@@ -37,23 +37,23 @@ a {
 }
 
 .list-link li:nth-child(5n+1) {
-  background-color: rgb(228, 170, 170);
+  background-color: hsl(0, 52%, 85%);
 }
 
 .list-link li:nth-child(5n+2) {
-  background-color: rgb(184, 184, 247);
+  background-color: hsl(72, 80%, 80%);
 }
 
 .list-link li:nth-child(5n+3) {
-  background-color: rgb(194, 235, 194);
+  background-color: hsl(144, 51%, 84%);
 }
 
 .list-link li:nth-child(5n+4) {
-  background-color: rgb(238, 224, 197);
+  background-color: hsl(216, 55%, 85%);
 }
 
 .list-link li:nth-child(5n+5) {
-  background-color: rgb(243, 195, 243);
+  background-color: hsl(288, 67%, 86%);
 }
 
 .list-link li {
