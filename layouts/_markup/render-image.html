@@ -1,0 +1,12 @@
+{{- $url := .Destination -}}
+{{- $alt := .Text | default "" -}}
+{{- $title := .Title -}}
+
+{{- $isRemote := strings.HasPrefix $url "http" -}}
+
+{{- $image := cond $isRemote (resources.GetRemote $url) (.Page.Resources.GetMatch $url) -}}
+{{- $image = $image.Resize "640x jpg q85 lanczos" -}}
+
+{{- with $image }}
+  <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" title="{{ $title }}" loading="lazy" />
+{{- end }}

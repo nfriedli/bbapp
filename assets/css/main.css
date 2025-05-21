@@ -1,7 +1,7 @@
 html {
   background: #888;
   color: #333;
-  font-family: ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
+  font-family: "Fira Sans", system-ui, sans-serif;
   font-size: 100%;
   text-align: center;
 }
@@ -13,7 +13,11 @@ body {
   padding: 1rem;
 }
 
-ul.list-link ,
+p {
+  text-align: left;
+}
+
+ul.list-link,
 .list-link li {
   margin: 0;
   padding: 0;
@@ -32,11 +36,25 @@ a {
   color: inherit;
 }
 
-.list-link li:nth-child(5n+1) { background-color: rgb(228, 170, 170); }
-.list-link li:nth-child(5n+2) { background-color: rgb(184, 184, 247); }
-.list-link li:nth-child(5n+3) { background-color: rgb(194, 235, 194); }
-.list-link li:nth-child(5n+4) { background-color: rgb(238, 224, 197); }
-.list-link li:nth-child(5n+5) { background-color: rgb(243, 195, 243); }
+.list-link li:nth-child(5n+1) {
+  background-color: rgb(228, 170, 170);
+}
+
+.list-link li:nth-child(5n+2) {
+  background-color: rgb(184, 184, 247);
+}
+
+.list-link li:nth-child(5n+3) {
+  background-color: rgb(194, 235, 194);
+}
+
+.list-link li:nth-child(5n+4) {
+  background-color: rgb(238, 224, 197);
+}
+
+.list-link li:nth-child(5n+5) {
+  background-color: rgb(243, 195, 243);
+}
 
 .list-link li {
   border-radius: 1rem;
@@ -55,4 +73,41 @@ a {
 footer {
   margin-top: 2rem;
   text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/fira-sans-v17-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/fira-sans-v17-latin-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/fira-sans-v17-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/fira-sans-v17-latin-700italic.woff2") format("woff2");
 }
