@@ -70,6 +70,12 @@ a {
   display: block;
 }
 
+div.important {
+  background: hsl(0, 36%, 96%);
+  border: 2px solid hsl(0, 100%, 50%);
+  padding: 0.5rem 1rem;
+}
+
 footer {
   margin-top: 2rem;
   text-align: center;

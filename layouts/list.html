@@ -2,6 +2,15 @@
 
 <div class="content">
 
+    {{ with site.Params.important }}
+    <div class="important">
+        {{ with .Title }}
+            <h2>{{ . }}</h2>
+        {{ end }}
+        {{ .Text | markdownify }}
+    </div>
+    {{ end }}
+
     {{ .Content }}
 
     <ul class="list-link">

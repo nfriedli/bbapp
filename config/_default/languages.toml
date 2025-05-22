@@ -23,6 +23,11 @@ weight = 20
 title = "Informations sur Bienne"
 footer = "Un projet de la Ville de Bienne"
 
+
+#[fr.params.important]
+#title = "Important"
+#text = "Annonce importante sur **toutes** les pages (mais qui ne remplace pas la page!)."
+
 # Activer un boutton d'urgence sur toutes les pages
 # Il faut enlever le # des 3 lignes suivantes
 
