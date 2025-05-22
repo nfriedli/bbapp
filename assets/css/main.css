@@ -30,6 +30,7 @@ ul.list-link {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
+  margin-block-start: 2rem;
 }
 
 a {
@@ -72,6 +73,13 @@ a {
 
 div.important {
   background: hsl(0, 36%, 96%);
+  border: 2px solid hsl(0, 100%, 50%);
+  padding: 0.5rem 1rem;
+}
+
+div.emergency {
+  background: hsl(0, 100%, 22%);
+  color: #FFF;
   border: 2px solid hsl(0, 100%, 50%);
   padding: 0.5rem 1rem;
 }

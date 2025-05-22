@@ -28,9 +28,12 @@ footer = "Un projet de la Ville de Bienne"
 #title = "Important"
 #text = "Annonce importante sur **toutes** les pages (mais qui ne remplace pas la page!)."
 
-# Activer un boutton d'urgence sur toutes les pages
-# Il faut enlever le # des 3 lignes suivantes
-
-# [fr.params.emergency]
-# title = "Urgences"
-# url = "/fr/urgences/"
+#[fr.params.emergency]
+#title = "Urgences absolue"
+#text = """
+#Gloups, tout merde!
+#
+#Suite.
+#
+#![urgence aéroportée](https://cdn.pixabay.com/photo/2019/11/26/17/34/helicopter-4655049_1280.jpg)
+#"""

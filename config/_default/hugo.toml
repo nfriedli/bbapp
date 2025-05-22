@@ -11,3 +11,4 @@ disableFastRender = true
 removePathAccents = true
 
 disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS", "404"]
+
