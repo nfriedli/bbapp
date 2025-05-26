@@ -12,3 +12,6 @@ removePathAccents = true
 
 disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS", "404"]
 
+[caches]
+[caches.images]
+dir = ":cacheDir/images"
