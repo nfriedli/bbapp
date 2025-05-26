@@ -1,4 +1,0 @@
-user-agent: *
-disallow: /
-
-Sitemap: https://bielbienne.ch/sitemap.xml
