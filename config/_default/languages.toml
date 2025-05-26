@@ -25,8 +25,8 @@ footer = "Un projet de la Ville de Bienne"
 
 
 [fr.params.important]
-title = "Important"
-text = "Annonce importante sur **toutes** les pages (mais qui ne remplace pas la page!)."
+# title = "Important"
+# text = "Annonce importante sur **toutes** les pages (mais qui ne remplace pas la page!)."
  
 # [fr.params.emergency]
 # title = "Urgences absolue"
