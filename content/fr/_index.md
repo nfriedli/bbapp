@@ -6,7 +6,7 @@ title = "🚨🚨🚨 Portrait de Bienne 🚨🚨🚨"
 url = "https://www.biel-bienne.ch/fr/portrait.html/622"
 
 [[liens]]
-title = "Sortir à Bienne – Agenda"
+title = "Sortir à Biel/Bienne – Agenda"
 url = "https://www.bienne2go.ch/fr/Z13199/manifestations?"
 
 [[liens]]
